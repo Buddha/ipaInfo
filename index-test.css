@@ -87,7 +87,7 @@ font-size:16px;
     background-color: rgba(0, 0, 0, 0.88);
     top: 0;
     left: 0;
-
+    z-index: 100;
 }
 
 #shade p {
