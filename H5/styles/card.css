@@ -1,0 +1,85 @@
+
+.card{
+    position: static;/*使用默认值。没有定位，元素出现在正常的流中*/
+    width: 100%; 
+    height: auto;
+    margin: 10px 0 10px 0;
+    padding: 0px 0 5px 0;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px 0px #838383cc;
+    break-inside: avoid; 
+    box-sizing: border-box; /*实现瀑布流布局最关键的属性,指定宽度和高度（最小/最大属性）确定元素边框box。也就是说，对元素指定宽度和高度包括padding和border的指定。    内容的宽度和高度减去各自双方该边框和填充的宽度从指定的"宽度"和"高度"属性计算 */
+    border-radius:10px !important;/* 倒角 */
+    overflow:hidden; /*格子外不显示*/
+    font-size: 12px;
+}   
+    
+
+.touxiang{
+    border-radius:50% !important;/* 倒角 */
+    overflow:hidden;/*格子外不显示*/ 
+    width: 12vw;/*格子宽*/
+    height: 12vw;/*格子高*/
+}
+
+.imgforcard{
+    width: 100%;
+    height: 100%;
+}
+/*当行文字*/
+.txt1DIV{
+    width:69%;
+    height:23px;
+    overflow: hidden; /** 隐藏超出的内容 **/
+    text-overflow: ellipsis; /** ……替代超出的内容 **/
+    white-space: nowrap;
+
+    /* border:1px solid #ddd;边框 */
+ }
+
+
+ /*多行文字*/
+ .txt2DIV{
+     width: 95%;
+     word-break: break-all;
+     text-overflow: ellipsis;/** ……替代超出的内容 **/
+     display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+     -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+     -webkit-line-clamp: 1; /** 显示的行数 **/
+     overflow: hidden;  /** 隐藏超出的内容 **/
+     padding: 0 2vw ;
+     text-align:center;
+}
+
+.fabu{
+    position: relative;/*生成相对定位的元素，相对于其正常位置进行定位*/
+    width: 100%; 
+    height: auto;
+    margin:  0;
+    padding: 0px 0 5px 0;
+}
+
+.zuozhe{
+    width:69%;
+    height:5vw;
+    overflow: hidden; /** 隐藏超出的内容 **/
+    text-overflow: ellipsis; /** ……替代超出的内容 **/
+    white-space: nowrap;
+    position: absolute;/**/
+    top: 2.5vw;
+    right: 0;
+    font-size: 3vw;
+
+}
+.shijian{
+    width:69%;
+    height:5vw;
+    overflow: hidden; /** 隐藏超出的内容 **/
+    text-overflow: ellipsis; /** ……替代超出的内容 **/
+    white-space: nowrap;
+    position: absolute;/**/
+    right: 0;
+    bottom: 0;
+    font-size: 3vw;
+
+}

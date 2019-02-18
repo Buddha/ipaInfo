@@ -1,0 +1,10 @@
+body{
+    position: relative;/*使用相绝对定位*/
+    width: 100%; /*宽度*/
+    height: auto;
+    left: 0;/*左对齐*/
+    top: 0; /*上对齐*/
+    background-color: rgb(240, 240, 240);/*背景色*/
+    margin: 0;
+}
+

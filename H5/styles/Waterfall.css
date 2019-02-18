@@ -1,0 +1,18 @@
+.Waterfall{
+    position: relative;/*使用?对定位*/
+    width: 100%; /*宽度*/
+    height:auto;
+    /* height: 100%; */
+    left: 0;/*左对齐*/
+    top: 12%; /*上对齐*/
+    margin: 0;
+    padding: 12vh 10px 1vh 10px;
+    /* background-color: #b45353; */
+    column-count: 2; /*设置列数*/
+    column-gap: 5;/*设置列间距*/
+    box-sizing: border-box;/*格子页内布局显示*/
+    /* background-color: rgb(122, 36, 36);背景色 */
+    /* float: left; */
+
+}
+
